@@ -2,26 +2,28 @@
 Building AI course project
 
 ## Summary
-AutoInsight is an AI-driven tool for automated CSV data analysis. It helps identify correlations and generates quick textual insights from datasets by automatically calculating means and identifying strong relationships between numeric variables. This project simplifies the initial data exploration phase for analysts and researchers.
+AutoInsight is an AI-driven tool for automated CSV data analysis. It helps identify correlations and generates quick textual insights from datasets by automatically calculating means and identifying strong relationships between numeric variables. This project simplifies the initial data exploration phase for analysts.
+
+## Background
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+
+* problem 1
+* problem 2
+
+## How is it used?
+Describe the process of using the solution. In what kind situations is the solution needed? Who are the users, what kinds of needs should be taken into account?
+
+![Analysis Demo](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
 ## Data sources and AI methods
-The data used in this project is provided via CSV files, such as the included 'sample_data.csv'. The AI methods involve automated correlation analysis and descriptive statistics using the Python library Pandas to find patterns and relationships within the data.
-
-## How to use
-To use AutoInsight, follow these steps:
-1. Ensure you have Python and Pandas installed.
-2. Place your dataset in the same folder as the script and name it 'sample_data.csv'.
-3. Run the script using the command: `python ai.py`.
-4. The tool will automatically output a correlation matrix and key insights directly in your terminal.
-
-![Analysis Demo](https://tinyurl.com/elementsofaicat)
+The data used in this project is provided via CSV files. The AI methods involve automated correlation analysis and descriptive statistics using the Python library Pandas.
 
 ## Challenges
-One challenge is handling non-numeric data or missing values, which can affect the correlation matrix. Future versions could include automated data cleaning.
+What does your project not solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
 ## What next?
-The project could be expanded to include visual charts using Matplotlib or Seaborn, and potentially use machine learning models to predict future trends based on the identified correlations.
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you need to move on?
 
 ## Acknowledgments
-* Inspired by the Building AI course project.
-* Built using the Pandas library for Python.
+* Inspired by the Building AI course project
+* [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
